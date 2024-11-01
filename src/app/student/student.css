@@ -1,0 +1,49 @@
+.student-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.student-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grades-section,
+.homework-section,
+.assignments-section {
+  margin-bottom: 20px;
+}
+
+.grades-section ul,
+.assignments-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.grades-section li,
+.assignments-section li {
+  margin-bottom: 10px;
+}
+
+.homework-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.homework-section input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.homework-section button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.homework-section button:hover {
+  background-color: #0056b3;
+}
